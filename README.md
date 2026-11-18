@@ -57,14 +57,14 @@ serverless-email-marketing-aws/
 │   └── email_template.html
 ├── events/
 │   └── test_event.json
-├── screenshots/
+├──Implementation_Screenshots/
 ├── .gitignore
 └── README.md
 ```
 
 ## 8. Implementation Screenshots
 
-Screenshots of the AWS implementation, including S3, Lambda, IAM, EventBridge, SES, and execution output, are available in the `screenshots` folder.
+Screenshots of the AWS implementation, including S3, Lambda, IAM, EventBridge, SES, and execution output, are available in the `Implementation_Screenshots` folder.
 
 ## 9. Security and Configuration Notes
 
