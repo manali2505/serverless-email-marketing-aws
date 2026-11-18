@@ -1,0 +1,144 @@
+
+email_template.html
+100%
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codify Newsletter</title>
+</head>
+
+<body style="margin:0; padding:20px; background-color:#F1F5F9;
+             font-family:Arial,Helvetica,sans-serif; color:#334155;">
+
+    <div style="max-width:600px; margin:auto; background-color:#FFFFFF;
+                padding:25px; border-radius:10px;">
+
+        <!-- Header -->
+        <h1 style="text-align:center; color:#163A70;">
+            Codify Newsletter
+        </h1>
+
+        <p style="text-align:center; color:#64748B; font-size:14px;">
+            LEARN • THINK • CODE
+        </p>
+
+        <hr style="border:0; border-top:1px solid #E2E8F0;">
+
+        <!-- Introduction -->
+        <h2 style="color:#2563EB;">Hello {{FirstName}}!</h2>
+
+        <p style="font-size:15px; line-height:1.7;">
+            Welcome to this week's Codify newsletter!
+            Get ready to challenge your logical thinking and
+            programming skills with our two exciting challenges.
+        </p>
+
+        <!-- Challenge 1 -->
+        <div style="background-color:#EFF6FF; padding:18px;
+                    border-left:4px solid #2563EB;
+                    border-radius:5px; margin:22px 0;">
+
+            <h3 style="color:#163A70; margin-top:0;">
+                Challenge 1: Number Puzzle
+            </h3>
+
+            <p>Find the next number in this sequence:</p>
+
+            <h2 style="text-align:center; color:#2563EB;">
+                2, 4, 8, 16, ?
+            </h2>
+
+            <p>
+                Can you identify the pattern and explain your answer?
+            </p>
+        </div>
+
+        <!-- Challenge 2 -->
+        <div style="background-color:#F0FDF4; padding:18px;
+                    border-left:4px solid #16A34A;
+                    border-radius:5px; margin:22px 0;">
+
+            <h3 style="color:#166534; margin-top:0;">
+                Challenge 2: Python Coding Challenge
+            </h3>
+
+            <p>
+                What will be the output of the following Python program?
+            </p>
+
+            <pre style="background-color:#FFFFFF; padding:15px;
+                        border:1px solid #D1D5DB;
+                        border-radius:5px; font-size:14px;
+                        line-height:1.6; color:#334155;
+                        white-space:pre-wrap; overflow-wrap:anywhere;">words = ["apple", "banana", "apple",
+         "orange", "banana", "apple"]
+
+frequency = {}
+
+for word in words:
+    frequency[word] = frequency.get(word, 0) + 1
+
+for word, count in frequency.items():
+    if count > 1:
+        print(word, count)</pre>
+
+            <p><strong>Choose the correct output:</strong></p>
+
+            <p style="line-height:1.9;">
+                A) apple 3<br>
+                &nbsp;&nbsp;&nbsp; banana 2<br><br>
+
+                B) apple 3<br>
+                &nbsp;&nbsp;&nbsp; banana 2<br>
+                &nbsp;&nbsp;&nbsp; orange 1<br><br>
+
+                C) apple 2<br>
+                &nbsp;&nbsp;&nbsp; banana 3<br><br>
+
+                D) apple banana orange
+            </p>
+
+            <p>
+                <strong>Bonus question:</strong> What would you change
+                to print only the words that appear exactly once?
+            </p>
+        </div>
+
+        <!-- Participation -->
+        <h3 style="color:#163A70;">How to Participate</h3>
+
+        <p style="font-size:15px; line-height:1.7;">
+            Reply to this email with your answers to both challenges.
+            Explain your Python output and try the bonus question too!
+        </p>
+
+        <div style="background-color:#EFF6FF; padding:15px;
+                    border-radius:5px; text-align:center;">
+            <strong style="color:#163A70;">
+                Think logically. Write clean code. Keep learning!
+            </strong>
+        </div>
+
+        <!-- Sign-off -->
+        <p style="line-height:1.7; margin-top:25px;">
+            Best regards,<br>
+            <strong style="color:#163A70;">The Codify Team</strong>
+        </p>
+
+        <!-- Footer -->
+        <hr style="border:0; border-top:1px solid #E2E8F0;">
+
+        <div style="text-align:center; color:#64748B;
+                    font-size:12px; line-height:1.8;">
+            <p>Codify Newsletter</p>
+            <p>Learn • Think • Code</p>
+            <p>You received this email as a newsletter subscriber.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
+Displaying email_template.html.
