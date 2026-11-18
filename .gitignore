@@ -1,0 +1,8 @@
+
+contacts.csv
+.env
+*.pem
+*.key
+.aws/
+__pycache__/
+*.pyc
